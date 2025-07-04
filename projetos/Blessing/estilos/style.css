@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor0: #5623ce;
+    --cor1: #6021F0;
+    --cor2: #F2EBE5;
+    --cor3: #6668f0;
+    --cor4: #8BF098;
+    --cor5: #F060A5;
+
+    --cort1: #cdaf54;
+    --cort2: #ffffff;
+    --cort3: #8f6bd1;
+
+    --fontemarca: "Italianno", cursive;
+    --fontesubtitle: "Libertinus Mono", monospace;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor2), lightgray);
+}
+
+header {
+    height: 300px;
+    background-image: linear-gradient(to right, var(--cort3), var(--cort1));
+}
+
+header > h1 {
+    text-align: center;
+    font-family: var(--fontemarca);
+    padding-top: 40px;
+    font-size: 9em;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.425);
+}
+
+header > p {
+    font-family: var(--fontesubtitle);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+nav {
+    height: 40px;
+    background-image: linear-gradient(to right, #7b5cb6, #ad9447);
+    padding: 5px;
+}
+
+nav > p {
+    display: inline-block;
+    height: 24px;
+    padding: 8px 8px 8px 8px;
+    font-size: 1.2em;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+nav > p:hover {
+    border-radius: 5px;
+    background-color: rgb(199, 149, 199);
+    color: black;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+main img {
+    height: 500px;
+    width: 400px;
+}
