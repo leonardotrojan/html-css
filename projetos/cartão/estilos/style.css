@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, rgb(53, 53, 53), rgb(85, 85, 85));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main {
+    height: 500px;
+    width: 800px;
+    background-color: gray;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+}
+
+img {
+    width: 270px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+        width: 270px;
+    height: 250px;
+}
