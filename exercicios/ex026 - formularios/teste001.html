@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        body {
+            background-image: linear-gradient(to bottom, rgb(31, 31, 31), rgb(73, 73, 73));
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            height: 97.9vh;
+            width: 98vw;
+        }
+
+        main {
+            display: inline-block;
+            height: 500px;
+            width: 500px;
+            border: 1px solid black;
+            box-shadow: 5px 4px 16px rgba(255, 255, 255, 0.363);
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(105, 105, 105);
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+            margin: 30px 0px 40px 0px
+        }
+
+        input#iuser, input#isenha {
+            height: 50px;
+            width: 350px;
+            border-radius: 30px;
+            text-align: center;
+            margin: 0% 15%;
+            background-color: rgb(73, 73, 73);
+        }
+
+        input::placeholder {
+            color: rgb(184, 184, 184);
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        input#submit {
+            width: 200px;
+            height: 40px;
+            margin: 10% 30%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Faça seu login!</h1>
+        <form action="cadastro.php">
+            <p><input type="text" name="user" id="iuser" placeholder="Nome de usuário"></p>
+            <p><input type="password" name="senha" id="isenha" placeholder="Senha"></p>
+            <p><input type="submit" value="Enviar" id="submit"></p>
+        </form>
+    </main>
+</body>
+</html>
