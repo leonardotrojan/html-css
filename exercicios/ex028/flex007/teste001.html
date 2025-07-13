@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: blueviolet;
+        }
+
+        section {
+            border-radius: 15px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+        }
+
+        div {
+            height: 100px;
+            width: 100px;
+            text-align: center;
+        }
+
+        div#bk {
+            background-color: blue;
+            color: white;
+            order: 1;
+        }
+
+        div#lg {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="bk">1</div>
+            <div id="lg">2</div>
+        </section>
+    </main>
+</body>
+</html>

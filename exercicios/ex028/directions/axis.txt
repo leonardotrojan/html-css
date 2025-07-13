@@ -1,0 +1,46 @@
+Flex-direction: row /* alinha em linha da esquerda para direita. E o main-axis (eixo horizontal) é da esquerda pra direita, e o cross-axis (eixo vertical) é de cima para baixo */
+
+Flex-direction: row-reverse /* alinha em linha da direita para esquerda. E o main-axis é da direita para esquerda, e o cross-axis é de cima para baixo */
+
+Flex-direction: column /* alinha em colunas de cima para baixo. E o main-axis (eixo vertical) é de cima para baixo, e o cross-axis (eixo-horizontal) é da esquerda para direita */
+
+Flex-direction: column-reverse /* alinha em colunas de baixo para cima. E o main-axis (eixo vertical) é de cima para baixo, e o cross-axis é da esquerda para direita */
+
+cross-start, cross-end;
+main-start; main-end;
+
+justify-content: 
+flex-start (primeiro item colado no main-start e deixa espaço vazio no main-end)
+flex-end (ultimo item colado no main-end e deixa espaço vazio no main-start)
+center (centraliza tudo com espaços iguais no main-start e main-end)
+space-between (primeiro item no main-start, segundo item no main-end, e o resto no centro com espaçamentos iguais)
+space-evenly (espaçamentos iguais em todos os cantos)
+space-around (espaçamento dobrado entre os itens)
+
+align-itens:
+stretch (estica os itens no sentido do cross-axis)
+flex-start (primeiro item no cross-start)
+flex-end (ultimo item no cross-end)
+center (centraliza com espaçamentos iguais no cross-end e start)
+
+align-content:
+stretch
+flex-start (cola tudo no cross-start)
+flex-end (cola tudo no cross-end)
+center (espaçamento igual entre o cross-start e end)
+space-between
+space-evenly (espaçamento igual entre tudo)
+space-around (espaçamento dobrado entre os itens)
+
+----------------------------------------------------------------
+order (o CSS organiza os itens em ordem crescente de acordo com os seus numeros)
+align-self:
+auto (pega o alinhamento do pai)
+flex-start (alinhamento no flex-start)
+flex-end (alinhamento no flex-end)
+center (alinha ao meio)
+stretch (estica)
+
+flex-basis:
+auto (tamanho ditado pelo tamanho do conteúdo)
+px (tamanho fixo)
