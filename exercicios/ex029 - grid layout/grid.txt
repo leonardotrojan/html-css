@@ -1,0 +1,39 @@
+grid container (caixa pai)
+grid track (row track/column track totalmente preenchidas por itens)
+grid lines (linhas entre os itens)
+grid area (agrupamento de itens)
+grid gap (espaço entre os itens)
+
+----------------------------------------------------------------------
+
+grid-template-rows/columns
+grid-gap
+
+align-items
+stretch (estica pra caber na track)
+start (coloca no inicio da track)
+center (coloca no meio (verticalmente) da track)
+end (coloca embaixo da track)
+
+justify-items 
+stretch (estica pra caber horizontalmente na track)
+start (coloca na esquerda da track)
+center (centraliza (horizontalmente) na track)
+end (coloca na direita da track)
+
+align-content
+start (coloca o content no topo do container)
+center (centraliza (verticalmente))
+end (coloca no fim do container)
+space-between (coloca a primeira fileira no topo, a ultima no fim, e o resto no meio com espaços iguais)
+space-evenly (distribui as fileiras com espaços iguais)
+space-around (distribuido com espaço dobrado entre os itens) 
+
+justify-content
+start (coloca o content na esquerda do container)
+center (centraliza (horizontalmente))
+end (coloca ns direita do container)
+space-between (coloca a primeira coluna na esqueda, a ultima na direita, e o resto no meio com espaços iguais)
+space-evenly (distribui as colunas com espaços iguais)
+space-around (distribuido com espaço dobrado entre os itens)
+
