@@ -37,3 +37,23 @@ space-between (coloca a primeira coluna na esqueda, a ultima na direita, e o res
 space-evenly (distribui as colunas com espaços iguais)
 space-around (distribuido com espaço dobrado entre os itens)
 
+grid-auto-row (definir uma altura de linha fixa para quando uma nova linha ser adicionada)
+grid-auto-column (definir uma largura de coluna fixa para quando uma nova coluna ser adicionada)
+
+** SHORTHAND **
+place-items: (valor do align) + (valor do justify)
+place-content: (valor do align) + (valor do justify)
+
+grid-template: x - x - x (valor da row) / y - y - y (valor do column)
+
+grid-template-columns: reapeat(3, auto)
+
+----------------------------------------------------------------------
+
+ grid-row-start
+
+ ** SHORTHAND **
+ grid-row: 1 / 4;
+
+ grid-area: 1 / 1 / 4 / 3 
+ (linha de inicio + coluna de inicio + linha final + coluna final)
