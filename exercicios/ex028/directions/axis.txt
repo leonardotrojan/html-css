@@ -44,3 +44,11 @@ stretch (estica)
 flex-basis:
 auto (tamanho ditado pelo tamanho do conteúdo)
 px (tamanho fixo)
+
+flex: grow - shrink - basis
+
+flex:
+intial (0 - 1 - auto)
+none (0 - 0 - auto)
+auto (1 - 1 - auto)
+x (x - 1 - auto)
